@@ -3,6 +3,9 @@ This github respository is for our ICAIF 2022 paper "Theoretically Motivated Dat
 ," see the full version of our paper on arxiv:
 https://arxiv.org/abs/2106.04114
 
+
+We include a demonstration implementation and application of the proposed method to learning a portfolio during the 2020 Market Crash. See the file `demonstration_market_crash.ipynb`
+
 # Data
 To obtain the S&P500 data we used, change the directory to `./data` and use the following command:
 ```
@@ -21,7 +24,7 @@ The constructed portfolio:
 
 <img src="figures/case_study_price.png" alt="cifar10" width="300"/>
 
-As we see, the model avoids the crash quite well. The demonstration code for training and testing this model is here in the jupyter notebook file.  
+As we see, the model avoids the crash quite well. The demonstration code for training and testing this model is here in the jupyter notebook file `demonstration_market_crash.ipynb`.  
 
 # TODO
 - A jupyter notebook for demonstration
