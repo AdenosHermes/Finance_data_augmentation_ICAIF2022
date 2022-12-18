@@ -27,6 +27,5 @@ The constructed portfolio:
 As we see, the model avoids the crash quite well. The demonstration code for training and testing this model is here in the jupyter notebook file `demonstration_market_crash.ipynb`.  
 
 # TODO
-- A jupyter notebook for demonstration
 - A gridsearch code for reproducing the benchmark results
 
