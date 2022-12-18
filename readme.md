@@ -14,14 +14,14 @@ The following figures shows portfolio constructed by our neural network model of
 
 The price of the stock:
 
-<img src="figures/case_study_portfolio.png" alt="cifar10" width="250"/>
+<img src="figures/case_study_portfolio.png" alt="cifar10" width="300"/>
 
 
 The constructed portfolio:
 
-<img src="figures/case_study_price.png" alt="cifar10" width="250"/>
+<img src="figures/case_study_price.png" alt="cifar10" width="300"/>
 
-As we see, the model avoids the crash quite well.
+As we see, the model avoids the crash quite well. The demonstration code for training and testing this model is here in the jupyter notebook file.  
 
 # TODO
 - A jupyter notebook for demonstration
