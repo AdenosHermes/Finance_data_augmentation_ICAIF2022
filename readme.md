@@ -5,6 +5,8 @@ https://arxiv.org/abs/2106.04114
 
 We include a demonstration implementation and application of the proposed method to learning a portfolio during the 2020 Market Crash. See the file `demonstration_market_crash.ipynb`
 
+The code in `main.py` can be used to grid search over different parameters for all stocks.
+
 # Data
 To obtain the S&P500 data we used, change the directory to `./data` and use the following command:
 ```
@@ -25,6 +27,5 @@ The constructed portfolio:
 
 As we see, the model avoids the crash quite well. The demonstration code for training and testing this model is here in the jupyter notebook file `demonstration_market_crash.ipynb`.  
 
-# TODO
-- A gridsearch code for reproducing the benchmark results
+
 
