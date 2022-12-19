@@ -112,7 +112,7 @@ def minibatch(datax, datay, sigma=0):
 def sharpe(X):
   X = np.array(X)
   ri = (X[1:] / X[:-1]) -1
-  return ((ri).mean() - 0.00004)/(np.std(ri) + 1e-4) * np.sqrt(252)
+  return ((ri).mean() - 0.00004)/(np.std(ri) + 1e-5) * np.sqrt(252)
 
 def wealth_gain(x, y):
     return x * y  + (1 - x) * 0.00004
